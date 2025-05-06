@@ -21,13 +21,10 @@
 
 - `requestAnimationFrame`과 `performance.now()`를 활용하여 실제 경과 시간 기반 제어
 
-### 2. **불필요한 Promise 제거**
+### 2. **단순화된 실행 구조**
 
-- delay 로직을 animation loop에서 처리하여 Promise 체인 단순화
-
-### 3. **단순하고 예측 가능한 흐름 구성**
-
-- 병렬 실행 여부(`isSimultaneousness`)에 따라 실행 흐름 분기
+- Promise 체인을 단순화하여 불필요한 대기 시간 제거
+- 각 애니메이션의 delay를 requestAnimationFrame에서 처리
 
 📄 [개선된 코드 보기](./src/example.js)
 
