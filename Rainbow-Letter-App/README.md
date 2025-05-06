@@ -37,4 +37,4 @@ const isWebview =
 - 사용자 경험 향상: 각 환경에 최적화된 UI/UX 제공으로 사용자 만족도 개선
 - 개발 효율성 증가: 환경 감지 로직 표준화로 개발 복잡성 감소 및 유지보수성 향상
 
-📄 [웹뷰 환경 감지 커스텀 훅](./src/useIsWebview.example.ts.ts)
+📄 [웹뷰 환경 감지 커스텀 훅](./src/useIsWebview.example.ts)
